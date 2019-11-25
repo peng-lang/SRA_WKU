@@ -1,6 +1,21 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+#==============================================================================#
+# File extensions to be ignored anywhere in the tree.
+#==============================================================================#
+# Temp files created by most text editors.
+*~
+# Merge files created by git.
+*.orig
+# Byte compiled Python modules.
+*.pyc
+# vim swap files
+.*.sw[a-z]
+.sw?
+
+#==============================================================================#
+# Explicit files to ignore (only matches one).
+#==============================================================================#
+cscope.files
+cscope.out
 
 ## Build generated
 build/
@@ -46,7 +61,7 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
@@ -66,3 +81,39 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+#==============================================================================#
+# Directories to ignore (do not add trailing '/'s, they skip symlinks).
+#==============================================================================#
+# Generated docs
+docs/_build
+
+# Finder metadata
+.DS_Store
+
+# Visual Studio metadata
+.vscode
+
+# IDEA metadata
+.idea
+#==============================================================================#
+# Ignore CMake temporary files
+#==============================================================================#
+CMakeCache.txt
+CMakeFiles
+.atom-build.json
+
+#==============================================================================#
+# Ignore java binay code
+#==============================================================================#
+.class
+
+#==============================================================================#
+# Ignore compile database
+#==============================================================================#
+compile_commands.json
+
+# Ignore generated GYB files until we fix the workaround on Windows
+#==============================================================================#
+8
+4
