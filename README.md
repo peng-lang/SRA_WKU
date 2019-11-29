@@ -3,5 +3,4 @@ Public Github Repository for SRA Members
 
 ## Hello World
 ```
-print("Hello world")
-```
+
