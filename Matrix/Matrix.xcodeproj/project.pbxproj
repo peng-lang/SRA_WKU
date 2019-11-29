@@ -11,7 +11,6 @@
 		BE684799239108B600953D7B /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE684798239108B600953D7B /* GeneralFunctions.swift */; };
 		BE9FEE9F238E646200FFFB85 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FEE9E238E646200FFFB85 /* Entry.swift */; };
 		BE9FEEA1238E649E00FFFB85 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FEEA0238E649E00FFFB85 /* List.swift */; };
-		BE9FEEA6238E66D800FFFB85 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = BE9FEEA5238E66D800FFFB85 /* LinkedList.c */; };
 		BEA8C4D4238FE1D400DE9F5D /* CNXMLists.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA8C4D3238FE1D400DE9F5D /* CNXMLists.c */; };
 		BEFEC95E238D409C00A024D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEC95D238D409C00A024D4 /* main.swift */; };
 		BEFEC965238D40C100A024D4 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEC964238D40C100A024D4 /* Matrix.swift */; };
@@ -37,8 +36,6 @@
 		BE9FEE9E238E646200FFFB85 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		BE9FEEA0238E649E00FFFB85 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		BE9FEEA3238E66D800FFFB85 /* Matrix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matrix-Bridging-Header.h"; sourceTree = "<group>"; };
-		BE9FEEA4238E66D800FFFB85 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
-		BE9FEEA5238E66D800FFFB85 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		BEA8C4D2238FE1D400DE9F5D /* CNXMLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNXMLists.h; sourceTree = "<group>"; };
 		BEA8C4D3238FE1D400DE9F5D /* CNXMLists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CNXMLists.c; sourceTree = "<group>"; };
 		BEFEC95A238D409C00A024D4 /* Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +62,6 @@
 				BEA8C4D3238FE1D400DE9F5D /* CNXMLists.c */,
 				BE57707B238FB3430040BFE2 /* CReal.h */,
 				BE57707C238FB3430040BFE2 /* CReal.c */,
-				BE9FEEA4238E66D800FFFB85 /* LinkedList.h */,
-				BE9FEEA5238E66D800FFFB85 /* LinkedList.c */,
 			);
 			path = C_Model;
 			sourceTree = "<group>";
@@ -175,7 +170,6 @@
 				BE9FEE9F238E646200FFFB85 /* Entry.swift in Sources */,
 				BEFEC965238D40C100A024D4 /* Matrix.swift in Sources */,
 				BEFEC95E238D409C00A024D4 /* main.swift in Sources */,
-				BE9FEEA6238E66D800FFFB85 /* LinkedList.c in Sources */,
 				BEFEC967238D4B8600A024D4 /* Functions.swift in Sources */,
 				BE684799239108B600953D7B /* GeneralFunctions.swift in Sources */,
 			);
